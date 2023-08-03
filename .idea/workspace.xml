@@ -4,18 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc24e3c-411e-41bf-ad26-7a4523673c5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P01_register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/S01_RegisterFeature.java" afterDir="false" />
+    <list default="true" id="1cc24e3c-411e-41bf-ad26-7a4523673c5a" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_homepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D02_loginStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D03_currenciesStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D04_searchStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D05_hoverCategoriesStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D06_homeSlidersStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D07_followUsStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D08_WishlistStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P01_register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P01_register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDef/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDef/S01_RegisterFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D01_RegisterStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +45,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -61,16 +73,15 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Scenario: guest user could register with valid data successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: F01_Register">
+    <configuration name="Feature: F01_Register" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" />
       <option name="GLUE" value="org.example.stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopCommerce-Project" />
-      <option name="NAME_FILTER" value="^guest user could register with valid data successfully$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^guest user could register with valid data successfully$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: guest user could register with valid data successfully" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F01_Register" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -82,22 +93,91 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="Feature: F02_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" />
+      <option name="GLUE" value="org.example.stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopCommerce-Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F02_Login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="Feature: F03_currencies" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" />
+      <option name="GLUE" value="org.example.stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="nopCommerce-Project" />
-      <option name="filePath" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: F03_currencies" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user add a product to the wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" />
+      <option name="GLUE" value="org.example.stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="nopCommerce-Project" />
+      <option name="NAME_FILTER" value="^user add a product to the wishlist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user add a product to the wishlist$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user add a product to the wishlist" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user go to wishlist tab" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" />
+      <option name="GLUE" value="org.example.stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="nopCommerce-Project" />
+      <option name="NAME_FILTER" value="^user go to wishlist tab$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^user go to wishlist tab$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user go to wishlist tab" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: guest user could register with valid data successfully" />
+        <item itemvalue="Cucumber Java.Feature: F01_Register" />
+        <item itemvalue="Cucumber Java.Feature: F02_Login" />
+        <item itemvalue="Cucumber Java.Feature: F03_currencies" />
+        <item itemvalue="Cucumber Java.Scenario: user go to wishlist tab" />
+        <item itemvalue="Cucumber Java.Scenario: user add a product to the wishlist" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +190,20 @@
       <option name="presentableId" value="Default" />
       <updated>1689459766198</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1689522823455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689522823455</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

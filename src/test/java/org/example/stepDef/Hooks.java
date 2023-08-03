@@ -12,17 +12,17 @@ public class Hooks {
      public static WebDriver driver;
 
      @Before
-    public static void OpenBrowser(){
+    public static void setUp(){
          driver = new ChromeDriver();
          driver.manage().window().maximize();
-         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
          driver.get("https://demo.nopcommerce.com/");
      }
 
 
 
-@After
-    public static void CloseBrowser(){
+    @After
+    public static void tearDown(){
          driver.quit();
      }
 }
