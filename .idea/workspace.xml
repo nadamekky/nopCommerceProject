@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc24e3c-411e-41bf-ad26-7a4523673c5a" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F02_Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F03_currencies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F04_Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F05_hoverCategories.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F06_homeSliders.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F07_followUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/F08_Wishlist.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P02_login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P03_homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D02_loginStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D03_currenciesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D04_searchStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D05_hoverCategoriesStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D06_homeSlidersStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D07_followUsStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D08_WishlistStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/F01_Register.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/pages/P01_register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/pages/P01_register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDef/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepDef/S01_RegisterFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepDef/D01_RegisterStepDef.java" afterDir="false" />
-    </list>
+    <list default="true" id="1cc24e3c-411e-41bf-ad26-7a4523673c5a" name="Changes" comment="Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689522823455</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1691060703249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691060703249</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1691061206885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691061206885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
