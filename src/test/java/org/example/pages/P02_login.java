@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class P02_login {
 
 
-    //elements
+
     By ClickLoginLink = By.className("ico-login");
     By EmailField = By.id("Email");
     By PasswordField = By.id("Password");
@@ -16,7 +16,7 @@ public class P02_login {
     By MyAccountLink = By.className("ico-account");
 
 
-    //actions
+    
     public WebElement LoginLink(){ return Hooks.driver.findElement(ClickLoginLink); }
     public WebElement Email(){ return Hooks.driver.findElement(EmailField); }
     public WebElement Password(){ return Hooks.driver.findElement(PasswordField); }
