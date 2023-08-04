@@ -1,5 +1,5 @@
-
-  Feature:
+@smoke
+  Feature: F08_Wishlist
     Scenario: user add a product to the wishlist
       When user clicks on wishlist button
       Then user check that success message appeared
