@@ -1,5 +1,5 @@
 @smoke
-Feature:
+Feature: F04_Search
   Scenario Outline: user could search using product name
     When user enter product data "<product>"
     And user click on search button
