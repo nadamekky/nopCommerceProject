@@ -1,5 +1,5 @@
 @smoke
-  Feature:
+  Feature: F07_followUs
     Scenario: user opens facebook link
       When user click on facebook icon
       Then "https://www.facebook.com/nopCommerce" is opened in new tab
