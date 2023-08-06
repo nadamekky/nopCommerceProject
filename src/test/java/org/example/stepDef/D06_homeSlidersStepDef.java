@@ -22,7 +22,7 @@ public class D06_homeSlidersStepDef {
     @Then("user should be directed to Nokia page")
     public void userShouldBeDirectedToNokiaPage() {
         softAssert.assertTrue(homepage.Current_URL().contains("nokia-lumia-1020"));
-        //softAssert.assertEquals("https://demo.nopcommerce.com/" , "https://demo.nopcommerce.com/iphone-6");
+        //softAssert.assertEquals("https://demo.nopcommerce.com/" , " https://demo.nopcommerce.com/nokia-lumia-1020");
     }
 
     @When("user click on the second slider")
